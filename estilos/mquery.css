@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+/* Folha de Estilo de Media Queries*/
+
+
+@media screen and (min-width: 768px) {
+
+
+body{
+    background-image: linear-gradient(90deg, --cor1, --cor2 );
+
+}
+
+section{
+    max-width: 100vw;
+
+}
+
+section div#divimagem{
+    display: inline-block;
+    width: 45%;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+section div#divlogin{
+    display: inline-block;
+    width: 45%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+}
